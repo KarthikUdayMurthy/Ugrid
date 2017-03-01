@@ -4,6 +4,7 @@ CLASS Ugrid created by KARTHIK UDAY MURTHY
 Purpose: Dynamic Grid creation with additional options
 
 Steps to use:
+
 1. link the files in your code:
     <link rel="stylesheet" href="Ugrid.css">
     <script src="Ugrid.js"></script>
