@@ -1,0 +1,121 @@
+﻿.Ugrid-loading {width:100% !important; height:100% !important; z-index:999; position:absolute; top:0px; left:0px; background:rgba(0,0,0,0.7);
+		color:white; font-size:24px; font-family:segoe UI; !important; text-align:center; padding:25% 0% !important;
+		text-shadow:0px 2px 10px #00BBFF;}
+
+.Ugrid-parent{border:1px solid #CCC; padding:16px; background:linear-gradient(rgba(250,250,250,1),rgba(245,245,245,1),rgba(233,233,233,1));
+	margin:10px; min-width:400px !important;}
+
+.Ugrid {min-width:100%!important; font-size:14px; border-collapse:collapse; font-family:calibri;
+	 line-height:14px !important; white-space:nowrap !important; color:black;}
+.Ugrid th, .Ugrid td{padding:2px; margin:0; text-align:left; border-color:#BBB; white-space:nowrap !important;}
+
+.Ugrid thead tr:first-child {background:linear-gradient(rgba(250,250,250,1),rgba(235,235,235,1),rgba(220,220,220,1));}
+
+.UgridTrSelect {background:#DBE1FF !important; background:linear-gradient(rgba(200,230,255,1),rgba(180,210,235,1),rgba(160,190,215,1)) !important;}
+.UgridTrSelectHover {cursor:pointer !important;}
+.UgridTrSelectHover:hover {background:#DBE1FF; !important;
+			   background:linear-gradient(rgba(200,230,255,1),rgba(180,210,235,1),rgba(160,190,215,1)) !important;}
+
+.Ugrid th{cursor:pointer; line-height:24px !important; padding-right:28px !important; transition:0.3s; -webkit-transition:0.3s; color:#000;
+		   background-image: url('Upics/a1.png'), linear-gradient(rgba(250,250,250,1),rgba(235,235,235,1),rgba(220,220,220,1)) !important;
+		   background-position: right top, left top !important;
+		   background-repeat: no-repeat, no-repeat !important;}
+
+.Ugrid th:hover {background-image: url('Upics/a1.png'), linear-gradient(rgba(200,250,250,1),rgba(185,235,235,1),rgba(170,220,220,1)) !important;
+		   background-position: right top, left top !important;
+		   background-repeat: no-repeat, no-repeat !important;}
+
+.Ugrid th.fwdsort {background-image: url('Upics/a2.png'), linear-gradient(rgba(200,250,250,1),rgba(185,235,235,1),rgba(170,220,220,1)) !important;
+		   background-position: right top, left top !important;
+		   background-repeat: no-repeat, no-repeat !important;}
+.Ugrid th.revsort {background-image: url('Upics/a3.png'), linear-gradient(rgba(200,250,250,1),rgba(185,235,235,1),rgba(170,220,220,1)) !important;
+		   background-position: right top, left top !important;
+		   background-repeat: no-repeat, no-repeat !important;}
+
+
+
+.Ugrid-tableDiv {border:1px solid grey; width:100%!important; background:#FFF; overflow-x:auto; overflow-y:hidden;
+		  border-top:1px solid grey !important; font-family:calibri; min-width:400px !important;}
+
+.Ugrid-toolDiv {border:0 !important; width:100%!important; background:transparent; overflow:auto; padding:0px 0px 8px 0px !important;
+		 border-bottom:0px !important; font-family:segoe UI; font-weight:bold; min-width:400px !important;
+		 line-height:24px !important;}
+
+.Ugrid-toolDiv .fDiv {background-color:rgba(0,0,0,0.6) !important; display:inline-block; float:left; max-width:calc(100% - 208px);
+	 		overflow:auto; color:white; margin:0; padding:3px 6px 3px 6px; margin-left:10px;
+			border-radius:4px; border:0px !important;  white-space:nowrap;
+			box-shadow:0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important}
+
+.Ugrid-toolDiv select {border:1px solid grey; font-size:14px; height:30px !important; font-weight:normal; vertical-align:-5%;
+			background-image:url('Upics/a3.png'), linear-gradient(rgba(250,250,250,1),rgba(235,235,235,1),rgba(220,220,220,1)) !important;
+			background-position:right -5px, left top; background-repeat: no-repeat, no-repeat;
+			cursor:pointer; padding-right:28px !important; display:inline-block; margin-left:6px;
+			transition:0.3s; -webkit-transition:0.3s; font-family:segoe UI; max-width:120px;
+			 -moz-appearance: window; -webkit-appearance: none;}
+
+.Ugrid-toolDiv select:hover {
+			background-image:url('Upics/a3.png'), linear-gradient(rgba(250,250,170,1),rgba(235,235,155,1),rgba(220,220,140,1)) !important;
+			background-position:right -5px, left top; background-repeat: no-repeat, no-repeat;}
+
+.Ugrid-toolDiv select::-ms-expand {display: none;}
+
+.Ugrid-fSelVal {border:1px solid grey; vertical-align:-5%; box-shadow:0px 0px 6px #996 inset; height:30px !important; line-height:24px !important;
+		font-weight:normal; display:inline-block; padding:2px 4px !important; width:200px; margin-left:6px; font-family:segoe UI;
+		font-size:14px;}
+
+.Ugrid-fSelBtn {height:30px !important; border:1px solid grey; vertical-align:-5%; padding:2px 4px; color:black; font-size:14px;
+		 display:inline-block; background:linear-gradient(rgba(250,250,250,1),rgba(235,235,235,1),rgba(220,220,220,1)) !important;
+		transition:0.3s; -webkit-transition:0.3s; font-family:segoe UI; font-weight:bold; cursor:pointer; margin-left:6px;}
+
+.Ugrid-fSelBtn:hover {background:linear-gradient(rgba(250,250,170,1),rgba(235,235,155,1),rgba(220,220,140,1)) !important;}
+
+.Ugrid-info {float:right !important; margin:0 !important; padding:4px 8px !important; border:1px solid #BBB;
+		background:linear-gradient(rgba(250,250,250,1),rgba(235,235,235,1),rgba(220,220,220,1)) !important;
+		display:inline-block; white-space:nowrap !important; border-radius:4px;}
+
+.Ugrid-pageInfo {border:0 !important; display:inline-block; font-size:16px; font-weight:normal; line-height:24px !important;
+		 margin:0px 6px !important; color:#000; font-family:calibri; cursor:default; vertical-align:0px !important;}
+
+.Ugrid-leftBtn, .Ugrid-rightBtn {border:0 !important; height:24px !important; display:inline-block; cursor:pointer; transition:0.3s;
+				 -webkit-transition:0.3s; border-radius:6px; vertical-align:-6px !important; margin:0px !important;}
+.Ugrid-leftBtn:hover, .Ugrid-rightBtn:hover {background:rgba(255,255,255,0.7);}
+
+
+.Ugrid-filDiv {display:none; position: fixed; z-index: 998; left: 0; top: 0; width: 100%; height: 100%; overflow: hidden;
+		  background-color: rgb(0,0,0); background-color: rgba(0,0,0,0.6); transition:0.3s;}
+
+.Ugrid-filDropDownDiv {background-color: #fefefe; margin: 9% auto; padding: 8px; border: 1px solid #888; width: 80%;
+		 	overflow: auto; max-height:50%; text-align:center; font-family:segoe UI;}
+
+.Ugrid-filDiv .close {color: white; float: right; font-size: 48px; font-weight:bold; margin:4% 4% 0px 0px;}
+
+.Ugrid-filDiv .close:hover,
+.Ugrid-filDiv .close:focus {color:orange; text-decoration: none; cursor: pointer;}
+
+.Ugrid-filDivShow {display:block;}
+
+.Ugrid-filSpan {box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important; margin:10px 12px; font-family:segoe UI;
+		background:linear-gradient(rgba(255,255,255,1),rgba(250,250,250,1),rgba(225,225,225,1)) !important; padding:4px 8px;
+		text-align:left !important; border-radius:4px; border:1px solid #BBB;}
+.Ugrid-filSpan:hover {background:linear-gradient(rgba(255,245,200,1),rgba(240,230,185,1),rgba(225,215,170,1)) !important;}
+
+.Ugrid-filSpan a {color:maroon; float:right; text-decoration:none;}
+.Ugrid-filSpan a:hover {color:red; text-decoration:underline;}
+
+.Ugrid-ErrorDiv {box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)!important; margin:10px 12px;
+		background:#FEE; padding:2px 8px; font-family:Lucida Console; border-radius:4px; border:0px;
+		text-align:left !important; font-size:12px;}
+
+.Ugrid-ErrorDiv b{text-decoration:italic; color:maroon; font-weight:normal; font-family:segoe UI; font-size:14px;}
+
+
+.Ugrid input[type=radio] {margin:auto !important; display:block !important;}
+
+.Ugrid-actionsMenu { position:absolute; box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19),0 0px 8px 0 rgba(0,0,0,0.5) inset !important;
+			display:none; z-index:997; background:#FFF; border:8px solid #999; border-radius:0px; margin:10px;
+			top:0; left:0; transition:0.3s; -webkit-transition:0.3s;}
+.Ugrid-actionsMenu a {display:block; font-family:segoe UI; padding:6px 18px !important; text-decoration:none; background:transparent;
+			color:black;border-bottom:1px solid #BBB; font-size:14px; transition:0.3s; -webkit-transition:0.3s;
+			}
+.Ugrid-actionsMenu a:hover {box-shadow:0 0px 8px 0 grey inset !important;
+			    background:linear-gradient(rgba(180,210,235,1),rgba(200,230,255,1),rgba(180,210,235,1)) !important;}
