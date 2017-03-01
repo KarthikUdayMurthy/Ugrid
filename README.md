@@ -6,8 +6,9 @@ Purpose: Dynamic Grid creation with additional options
 Steps to use:
 
 1. link the files in your code:
-    Ugrid.css
-    Ugrid.js
+    1. Ugrid.css
+    2. Ugrid.js
+    3. Create a folder "Upics" in the same path where the above files are placed and place all the images inside it.
     
 2. Use the below syntax to create an instance of the Ugrid object:
     var obj1 = new Ugrid(two dimensional array,container tag name[,number of rows,array of actions,array of classes]);
