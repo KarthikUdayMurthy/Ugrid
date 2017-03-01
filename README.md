@@ -7,5 +7,9 @@ Steps to use:
 1. link the files in your code:
     <link rel="stylesheet" href="Ugrid.css">
     <script src="Ugrid.js"></script>
+    
 2. Use the below syntax to create an instance of the Ugrid object:
-    var obj1 = new Ugrid(data,"d1",10,actions,[]);
+    var obj1 = new Ugrid(two dimensional array,container tag name[,number of rows,array of actions,array of classes]);
+    
+3. Call the createTable() method:
+        obj1.createTable();
