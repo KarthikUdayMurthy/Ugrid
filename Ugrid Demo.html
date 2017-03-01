@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<title>Ugrid - Demo</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="Ugrid.css">
+<script src="Ugrid.js"></script>
+
+<style>
+h1{font-family:segoe UI; text-align:left; font-weight:normal; color:#636363; margin:10px !important;}
+h1 b{font-size:14px; font-weight:normal; color:grey;}
+hr{margin:16px 10px !important; border:0px !important; border-top:1px solid #CCC !important;}
+button{margin:10px; background:linear-gradient(rgba(255,255,255,1),rgba(250,250,250,1),rgba(238,238,238,1)); color:black;
+	border:1px solid #CCC; font-family:segoe UI; font-size:14px; padding:8px 16px; cursor:pointer; transition:0.3s; -webkit-transition:0.3s;}
+button:hover {box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)!important;}
+#d1{width:990px; box-shadow:0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;}
+</style>
+
+<script>
+function test(a)
+{
+document.getElementById("d1").innerHTML = '';
+var rs = [["Column A","Column B","Column C"],[1,"abc",28.52],[2,"def",36.95],[9,"ach",36.69]
+	 ,[1,"abc",28.52],[2,"def",36.95],[3,"ghi",60.97]
+	 ,[4,"def",36.95],[5,"stu",40.66],[6,"def",36.95]
+	 ,[1,"jkl",11.23],[2,"mno",36.80],[3,"pqr",12.11]
+	 ,[4,"def",36.95],[5,"abc",89.93],[6,"def",36.95]
+	 ,[1,"vwx",28.52],[2,"def",43.12],[2,"yzz",64.46]];
+
+var act = [
+	{name:"Test action1",
+	 fn:function(rid,rval) {
+		alert("inside action1\nrid:"+rid+"\nrval:"+rval);
+	 }
+	},
+	{name:"Test action2",
+	 fn:function(rid,rval) {
+		alert("inside action2\nrid:"+rid+"\nrval:"+rval);
+	 }
+	},
+	{name:"Test action3",
+	 fn:function(rid,rval) {
+		alert("inside action3\nrid:"+rid+"\nrval:"+rval);
+	 }
+	}
+];
+if(a) var actions = act;
+else var actions = [];
+var x = new Ugrid(rs,"d1",10,actions,[]);
+x.createTable();
+//x.removeParentDivStyle();
+}
+</script>
+
+<body>
+<h1>Ugrid Demo <b>Developed by Karthik Uday Murthy</b></h1>
+<hr>
+<button onclick="test(0)">Click here to add a Ugrid below without actions</button>
+<button onclick="test(1)">Click here to add a Ugrid below with actions</button>
+<div id="d1">
+</div>
+<hr>
+
+</body>
+</html>
