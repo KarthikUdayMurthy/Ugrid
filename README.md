@@ -20,7 +20,7 @@ Steps to use:
     
 2. Use the below syntax to create an instance of the Ugrid object:
        
-       var obj1 = new Ugrid(two dimensional array,container tag name[,number of rows,array of actions,array of classes]);
+       var obj1 = new Ugrid(two dimensional array,container element ID[,number of rows,array of actions,array of classes]);
     
 3. Call the createTable() method:
 
