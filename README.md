@@ -22,7 +22,7 @@ Steps to use:
 
 ```javascript
 
-var obj1 = new Ugrid(*two dimensional array,container element ID*[*,number of rows,array of actions,array of classes*]);
+var obj1 = new Ugrid( * two dimensional array,container element ID * [*,number of rows,array of actions,array of classes*]);
 
 ```
     
